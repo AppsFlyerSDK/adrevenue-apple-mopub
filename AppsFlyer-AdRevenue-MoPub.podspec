@@ -15,8 +15,8 @@ AppsFlyer-AdRevenue-MoPub description. Description will be added shortly.
 
   s.vendored_frameworks = 'iOS/AppsFlyerAdRevenueMoPub.framework'
   
-  s.dependency 'AppsFlyer-AdRevenue', '6.0.3'
-  s.dependency 'mopub-ios-sdk', '~> 5.13.1'
+  s.dependency 'AppsFlyer-AdRevenue', '6.0.5'
+  s.dependency 'mopub-ios-sdk', '~> 5.14.0'
   s.static_framework = true
   
 end
