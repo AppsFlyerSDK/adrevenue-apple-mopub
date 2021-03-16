@@ -15,7 +15,7 @@ AppsFlyer-AdRevenue-MoPub description. Description will be added shortly.
 
   s.vendored_frameworks = 'iOS/AppsFlyerAdRevenueMoPub.framework'
   
-  s.dependency 'AppsFlyer-AdRevenue', '6.2.4'
+  s.dependency 'AppsFlyer-AdRevenue', '6.2.5'
   s.dependency 'mopub-ios-sdk', '~> 5.16.0'
   s.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 arm64e armv7 armv7s', 'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 arm64e armv7 armv7s', 'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64' }
