@@ -20,6 +20,7 @@
 #import "MPRewardedVideo.h"
 #import "MPInterstitialAdController.h"
 #import "MPRewardedVideoReward.h"
+#import "MPRewardedAds.h"
 
 #pragma mark - MoPub AdNetworkEvent(Action) Name
 
