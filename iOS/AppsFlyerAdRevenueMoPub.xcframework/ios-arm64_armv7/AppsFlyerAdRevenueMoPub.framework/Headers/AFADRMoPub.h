@@ -9,6 +9,7 @@
 
 #import "AFADRWrapper.h"
 #import "AFADRDelegate.h"
+
 #import "MPAdView.h"
 #import "MPNativeAd.h"
 #import "MPAdViewDelegate.h"
@@ -17,7 +18,6 @@
 #import "MPCollectionViewAdPlacerDelegate.h"
 #import "MPStreamAdPlacerDelegate.h"
 #import "MPInterstitialAdControllerDelegate.h"
-#import "MPRewardedVideo.h"
 #import "MPInterstitialAdController.h"
 #import "MPRewardedVideoReward.h"
 #import "MPRewardedAds.h"
@@ -31,8 +31,8 @@
 #define kMoPubEventNamePresentModal           @"PresentModal"
 #define kMoPubEventNameDismissModal           @"DismissModal"
 #define kMoPubEventNameDidTrackImpression     @"DidTrackImpression"
-#define kMoPubEventNameDidAppear              @"DidAppear"
-#define kMoPubEventNameDidDisappear           @"DidDisappear"
+#define kMoPubEventNameDidPresent             @"DidPresent"
+#define kMoPubEventNameDidDismiss             @"DidDismiss"
 #define kMoPubEventNameDidExpire              @"DidExpire"
 #define kMoPubEventNameDidReceiveTapEvent     @"DidReceiveTapEvent"
 #define kMoPubEventNameDidFailToPlay          @"DidFailToPlay"
