@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AppsFlyer-AdRevenue-MoPub'
-  s.version          = '6.4.2'
+  s.version          = '6.5.2'
   s.summary          = 'The meaningful summary of AppsFlyer-AdRevenue-MoPub.'
   s.description      = <<-DESC
 AppsFlyer-AdRevenue-MoPub description. Description will be added shortly.
@@ -15,7 +15,7 @@ AppsFlyer-AdRevenue-MoPub description. Description will be added shortly.
 
   s.vendored_frameworks = 'iOS/AppsFlyerAdRevenueMoPub.xcframework'
   
-  s.dependency 'AppsFlyer-AdRevenue', '~> 6.4.0'
+  s.dependency 'AppsFlyer-AdRevenue', '>= 6'
   s.dependency 'mopub-ios-sdk', '~> 5.18.0'
   s.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 arm64e armv7 armv7s', 'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 arm64e armv7 armv7s', 'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'i386 x86_64' }
